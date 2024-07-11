@@ -19,3 +19,6 @@ jobs:
       with:
         distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '21'
+
+    - name: instalacion con maven
+      run: mvn clean install --file pom.xml
